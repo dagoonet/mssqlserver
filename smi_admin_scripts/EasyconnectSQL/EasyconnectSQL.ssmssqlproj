@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EasyconnectSQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AccountMembers_dev.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AccountMembers_dev.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Accounts_dev.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Accounts_dev.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dba__job_arm_easyconnect_permissions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dba__job_arm_easyconnect_permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="wtsql206_job_resources.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>wtsql206_job_resources.sql</FullPath>
+        </FileNode>
+        <FileNode Name="wtsql206_server_resources_dev.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>wtsql206_server_resources_dev.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

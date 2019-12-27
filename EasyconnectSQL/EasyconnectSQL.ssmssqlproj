@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EasyconnectSQL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="clndbsql:KLINIK\deubel_m">
+          <Created>2019-10-23T11:06:42.251123+02:00</Created>
+          <Type>SQL</Type>
+          <Server>clndbsql</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="wtsql206:KLINIK\deubel_m">
+          <Created>2019-09-28T07:27:25.2832431+02:00</Created>
+          <Type>SQL</Type>
+          <Server>wtsql206</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="AccountMembers_dev.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>AccountMembers_dev.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Accounts_dev.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clndbsql:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clndbsql</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Accounts_dev.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dba__job_arm_easyconnect_permissions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dba__job_arm_easyconnect_permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="wtsql206_job_resources.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clndbsql:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clndbsql</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>wtsql206_job_resources.sql</FullPath>
+        </FileNode>
+        <FileNode Name="wtsql206_server_resources_dev.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>wtsql206_server_resources_dev.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

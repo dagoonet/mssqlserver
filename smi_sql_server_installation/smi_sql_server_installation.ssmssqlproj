@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="smi_sql_server_installation">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="clcoppdb:KLINIK\Deubel_M">
+          <Created>2019-12-21T09:10:39.3914815+01:00</Created>
+          <Type>SQL</Type>
+          <Server>clcoppdb</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>msdb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="wtsql206:KLINIK\Deubel_M">
+          <Created>2019-12-14T09:47:12.0016542+01:00</Created>
+          <Type>SQL</Type>
+          <Server>wtsql206</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>msdb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="alerts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>alerts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="audit_jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>audit_jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="check_command_table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_command_table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="database_mail_setup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>database_mail_setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dba_34052_Scheduled_Policy_Violation_job.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dba_34052_Scheduled_Policy_Violation_job.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dba_get_long_running_queries_job.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dba_get_long_running_queries_job.sql</FullPath>
+        </FileNode>
+        <FileNode Name="default_setup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>default_setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MaintenanceSolution.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>\\klinik.uni-wuerzburg.de\HomeDir\UserData02\Deubel_M\arbeit\sqlserver\scripts\install\Ola_Hallengren\MaintenanceSolution.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pbm_policies.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pbm_policies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_check_commandlog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_check_commandlog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_drop_database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_drop_database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_get_long_running_queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clcoppdb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clcoppdb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_get_long_running_queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_restored_databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_restored_databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_policy_violation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_policy_violation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_server_restart.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:clcoppdb:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>clcoppdb</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_server_restart.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="check_data_file_autogrowth.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_data_file_autogrowth.xml</FullPath>
+        </FileNode>
+        <FileNode Name="check_database_owner.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_database_owner.xml</FullPath>
+        </FileNode>
+        <FileNode Name="check_free_space_trn.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_free_space_trn.xml</FullPath>
+        </FileNode>
+        <FileNode Name="check_number_of_datafiles.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_number_of_datafiles.xml</FullPath>
+        </FileNode>
+        <FileNode Name="check_number_of_logfiles.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>check_number_of_logfiles.xml</FullPath>
+        </FileNode>
+        <FileNode Name="Identify Databases not backed up in the last 4 hours v2.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Identify Databases not backed up in the last 4 hours v2.xml</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

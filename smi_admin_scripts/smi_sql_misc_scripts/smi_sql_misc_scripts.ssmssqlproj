@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="smi_sql_misc_scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="w8mw234:KLINIK\deubel_m">
+          <Created>2019-10-03T09:15:33.9628416+02:00</Created>
+          <Type>SQL</Type>
+          <Server>w8mw234</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>_8ManDB</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="wtsql206:KLINIK\deubel_m">
+          <Created>2019-05-26T09:59:01.8181384+02:00</Created>
+          <Type>SQL</Type>
+          <Server>wtsql206</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="dynamic_audits.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>dynamic_audits.sql</FullPath>
+        </FileNode>
+        <FileNode Name="list_all_db_permissions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:wtsql206:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>wtsql206</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>list_all_db_permissions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery38.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:w8mw234:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>w8mw234</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery38.sql</FullPath>
+        </FileNode>
+        <FileNode Name="tde_adventureworks.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>tde_adventureworks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="transactions_locking.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>transactions_locking.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

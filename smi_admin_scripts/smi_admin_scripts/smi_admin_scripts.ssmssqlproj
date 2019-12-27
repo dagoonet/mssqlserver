@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="smi_admin_scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="vdocusql:KLINIK\deubel_m">
+          <Created>2019-12-21T09:45:35.3746498+01:00</Created>
+          <Type>SQL</Type>
+          <Server>vdocusql</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="database_security_andreas_wolters.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>database_security_andreas_wolters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DuplicateIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DuplicateIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="index_infos.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vdocusql:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vdocusql</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>index_infos.sql</FullPath>
+        </FileNode>
+        <FileNode Name="job_schedules.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>job_schedules.sql</FullPath>
+        </FileNode>
+        <FileNode Name="loop_over_database_objects.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>loop_over_database_objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="MissingIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:vdocusql:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>vdocusql</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>MissingIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="outdated_statistics.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>outdated_statistics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="security_privileges.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>security_privileges.sql</FullPath>
+        </FileNode>
+        <FileNode Name="slow_databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>slow_databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="smi_sp_handle_alerts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>smi_sp_handle_alerts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sql_server_errorlog_processing.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sql_server_errorlog_processing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="transfer_logins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>\\klinik.uni-wuerzburg.de\HomeDir\UserData02\Deubel_M\arbeit\sqlserver\scripts\handle_logins\transfer_logins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UnusedIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UnusedIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VLF counts for all online databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>VLF counts for all online databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vlf_size.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>vlf_size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="vlfcount.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>vlfcount.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

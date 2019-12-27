@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "smi_admin_scripts", "smi_admin_scripts\smi_admin_scripts.ssmssqlproj", "{52FBD538-C19A-4E5D-92B0-11F00054A136}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "smi_sql_server_installation", "..\smi_sql_server_installation\smi_sql_server_installation.ssmssqlproj", "{D8DBE415-7C19-492B-882B-531263E6336F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "smi_sql_misc_scripts", "smi_sql_misc_scripts\smi_sql_misc_scripts.ssmssqlproj", "{B1E023D5-3A1D-4E4E-9EF5-EFB17A2A844B}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "EasyconnectSQL", "EasyconnectSQL\EasyconnectSQL.ssmssqlproj", "{C7298974-3168-45B4-A024-A0749819E202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FBD538-C19A-4E5D-92B0-11F00054A136}.Default|Default.ActiveCfg = Default
+		{D8DBE415-7C19-492B-882B-531263E6336F}.Default|Default.ActiveCfg = Default
+		{B1E023D5-3A1D-4E4E-9EF5-EFB17A2A844B}.Default|Default.ActiveCfg = Default
+		{C7298974-3168-45B4-A024-A0749819E202}.Default|Default.ActiveCfg = Default
+		{9891E8C0-000A-4F2E-ABB1-68641837F59F}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E9A9CDA-8756-43C5-BB16-669BAEE18B2E}
+	EndGlobalSection
+EndGlobal
